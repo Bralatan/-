@@ -1,0 +1,2480 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_7a29f51d13c2435c90c63a629c36d650 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_7a29f51d13c2435c90c63a629c36d650" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_7a29f51d13c2435c90c63a629c36d650 = L.map(
+        'map_7a29f51d13c2435c90c63a629c36d650', {
+        center: [49.2320162, 28.467975],
+        zoom: 6,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_4c46fefc094745b285d4b7fb8738c266 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+    
+        var marker_14ee521ade3748a4930f4f5810135a08 = L.marker(
+            [50.8061, 30.3744],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_5b5e57b9de9d40529089af47c8830ce8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_539113ddecac4d2480a19dea3ff76d5c = $(`<div id="html_539113ddecac4d2480a19dea3ff76d5c" style="width: 100.0%; height: 100.0%;">Event Park Глебовка</div>`)[0];
+                popup_5b5e57b9de9d40529089af47c8830ce8.setContent(html_539113ddecac4d2480a19dea3ff76d5c);
+            
+
+            marker_14ee521ade3748a4930f4f5810135a08.bindPopup(popup_5b5e57b9de9d40529089af47c8830ce8)
+            ;
+
+            
+        
+    
+        var marker_f46d9ba508e44a6b89c354e49144d39f = L.marker(
+            [50.4667, 30.5426],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_9fc48f1e07984d2e968923683c8f86f3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7113f371f8194aea91837366cca0e4f7 = $(`<div id="html_7113f371f8194aea91837366cca0e4f7" style="width: 100.0%; height: 100.0%;">Кафе Скворечник</div>`)[0];
+                popup_9fc48f1e07984d2e968923683c8f86f3.setContent(html_7113f371f8194aea91837366cca0e4f7);
+            
+
+            marker_f46d9ba508e44a6b89c354e49144d39f.bindPopup(popup_9fc48f1e07984d2e968923683c8f86f3)
+            ;
+
+            
+        
+    
+        var marker_4a6e86c3663347aea7152b5405ecf821 = L.marker(
+            [50.4583, 30.5162],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_a19c31932c154739bec1c2421a9da1a6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a1b0cd560cc34da9acfb53d55d6d8fea = $(`<div id="html_a1b0cd560cc34da9acfb53d55d6d8fea" style="width: 100.0%; height: 100.0%;">Музей истории Украины</div>`)[0];
+                popup_a19c31932c154739bec1c2421a9da1a6.setContent(html_a1b0cd560cc34da9acfb53d55d6d8fea);
+            
+
+            marker_4a6e86c3663347aea7152b5405ecf821.bindPopup(popup_a19c31932c154739bec1c2421a9da1a6)
+            ;
+
+            
+        
+    
+        var marker_5c65cd2fc030440f8449250d52a277cf = L.marker(
+            [50.4468, 30.5297],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_8eeac4279da149c8a14b1430fe82bdd7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a28b4affd96b4b3383e23ddbe4ca3f23 = $(`<div id="html_a28b4affd96b4b3383e23ddbe4ca3f23" style="width: 100.0%; height: 100.0%;">Особняк Либермана</div>`)[0];
+                popup_8eeac4279da149c8a14b1430fe82bdd7.setContent(html_a28b4affd96b4b3383e23ddbe4ca3f23);
+            
+
+            marker_5c65cd2fc030440f8449250d52a277cf.bindPopup(popup_8eeac4279da149c8a14b1430fe82bdd7)
+            ;
+
+            
+        
+    
+        var marker_d7c9fc531fa44b24a2967ae2a5de3c96 = L.marker(
+            [50.5773, 30.108],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_ea1cc32624ec4113b9cfbe4f25ec342a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c4e5d5a3d9154405a19e394a40987fb4 = $(`<div id="html_c4e5d5a3d9154405a19e394a40987fb4" style="width: 100.0%; height: 100.0%;">Усадьба Сакен-Остенов</div>`)[0];
+                popup_ea1cc32624ec4113b9cfbe4f25ec342a.setContent(html_c4e5d5a3d9154405a19e394a40987fb4);
+            
+
+            marker_d7c9fc531fa44b24a2967ae2a5de3c96.bindPopup(popup_ea1cc32624ec4113b9cfbe4f25ec342a)
+            ;
+
+            
+        
+    
+        var marker_41783c222808429e8dc736409e7a8248 = L.marker(
+            [50.3783, 30.5101],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_5931c1d6167d4e7c9cb8a50024722cd1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3a1bd527abba40358c91fc43e95ce19e = $(`<div id="html_3a1bd527abba40358c91fc43e95ce19e" style="width: 100.0%; height: 100.0%;">Голосеевская пустынь</div>`)[0];
+                popup_5931c1d6167d4e7c9cb8a50024722cd1.setContent(html_3a1bd527abba40358c91fc43e95ce19e);
+            
+
+            marker_41783c222808429e8dc736409e7a8248.bindPopup(popup_5931c1d6167d4e7c9cb8a50024722cd1)
+            ;
+
+            
+        
+    
+        var marker_0df24f3f75984aa2bc2997a8b74c7ea1 = L.marker(
+            [50.4149, 30.5628],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_a1d28f7f654445af9c672ab1291e5b78 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_68018aa25e174c428d112fb4bf0c494a = $(`<div id="html_68018aa25e174c428d112fb4bf0c494a" style="width: 100.0%; height: 100.0%;">Национальный ботанический сад им. Н. Н. Гришко НАН Украины</div>`)[0];
+                popup_a1d28f7f654445af9c672ab1291e5b78.setContent(html_68018aa25e174c428d112fb4bf0c494a);
+            
+
+            marker_0df24f3f75984aa2bc2997a8b74c7ea1.bindPopup(popup_a1d28f7f654445af9c672ab1291e5b78)
+            ;
+
+            
+        
+    
+        var marker_eeb9756f44b24e7fa5918ca9d9c4ab75 = L.marker(
+            [50.4487, 30.5133],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_fa39a5f018364c628a1704bffcb0a512 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3109638945ed49f882b466c85eeaf9f3 = $(`<div id="html_3109638945ed49f882b466c85eeaf9f3" style="width: 100.0%; height: 100.0%;">Золотые ворота</div>`)[0];
+                popup_fa39a5f018364c628a1704bffcb0a512.setContent(html_3109638945ed49f882b466c85eeaf9f3);
+            
+
+            marker_eeb9756f44b24e7fa5918ca9d9c4ab75.bindPopup(popup_fa39a5f018364c628a1704bffcb0a512)
+            ;
+
+            
+        
+    
+        var marker_6575336898c747d7b66cadc6ad895648 = L.marker(
+            [50.455, 30.6354],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_bc19858ec42842b2a48e25eac3dcc1b4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f5c0fcb30617454fa76c1e26b5abef6f = $(`<div id="html_f5c0fcb30617454fa76c1e26b5abef6f" style="width: 100.0%; height: 100.0%;">City-Zen cafe&bar</div>`)[0];
+                popup_bc19858ec42842b2a48e25eac3dcc1b4.setContent(html_f5c0fcb30617454fa76c1e26b5abef6f);
+            
+
+            marker_6575336898c747d7b66cadc6ad895648.bindPopup(popup_bc19858ec42842b2a48e25eac3dcc1b4)
+            ;
+
+            
+        
+    
+        var marker_dcbb8b3fbf8e4c658be637fc39fcfb21 = L.marker(
+            [50.4417, 30.5164],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_be18ee0bf71e4862a0f8d57000dd10a6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cf7c9bc49eb847ffb5e8d6467c2647bd = $(`<div id="html_cf7c9bc49eb847ffb5e8d6467c2647bd" style="width: 100.0%; height: 100.0%;">ProRock Pub</div>`)[0];
+                popup_be18ee0bf71e4862a0f8d57000dd10a6.setContent(html_cf7c9bc49eb847ffb5e8d6467c2647bd);
+            
+
+            marker_dcbb8b3fbf8e4c658be637fc39fcfb21.bindPopup(popup_be18ee0bf71e4862a0f8d57000dd10a6)
+            ;
+
+            
+        
+    
+        var marker_62f4f98b87434b29871f1e9b97b220f3 = L.marker(
+            [50.4511, 30.5263],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_256c93bbdd194512bfe7b69a352ae093 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2bd3085ba13d45f88be9aca1b4b9f337 = $(`<div id="html_2bd3085ba13d45f88be9aca1b4b9f337" style="width: 100.0%; height: 100.0%;">Star Burger на Крещатике</div>`)[0];
+                popup_256c93bbdd194512bfe7b69a352ae093.setContent(html_2bd3085ba13d45f88be9aca1b4b9f337);
+            
+
+            marker_62f4f98b87434b29871f1e9b97b220f3.bindPopup(popup_256c93bbdd194512bfe7b69a352ae093)
+            ;
+
+            
+        
+    
+        var marker_3bf4cacdd3a640be8bbbb2d6e0c89319 = L.marker(
+            [50.3434, 30.5463],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_e6636a9d680d4c3b942b5552e7471526 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0987e489c67f45b89e01361af44da84d = $(`<div id="html_0987e489c67f45b89e01361af44da84d" style="width: 100.0%; height: 100.0%;">Детский город профессий KidsWill</div>`)[0];
+                popup_e6636a9d680d4c3b942b5552e7471526.setContent(html_0987e489c67f45b89e01361af44da84d);
+            
+
+            marker_3bf4cacdd3a640be8bbbb2d6e0c89319.bindPopup(popup_e6636a9d680d4c3b942b5552e7471526)
+            ;
+
+            
+        
+    
+        var marker_f0c2445efac2456c89de1f2bf09adbb5 = L.marker(
+            [50.445, 30.5286],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_f14d3bf2ffbf4d2c9c47e5bc01ace21e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_816108065c5543729bb60aa1bed658b0 = $(`<div id="html_816108065c5543729bb60aa1bed658b0" style="width: 100.0%; height: 100.0%;">Дом с химерами</div>`)[0];
+                popup_f14d3bf2ffbf4d2c9c47e5bc01ace21e.setContent(html_816108065c5543729bb60aa1bed658b0);
+            
+
+            marker_f0c2445efac2456c89de1f2bf09adbb5.bindPopup(popup_f14d3bf2ffbf4d2c9c47e5bc01ace21e)
+            ;
+
+            
+        
+    
+        var marker_ec18c8807def4d6ba7075fe6c49560a6 = L.marker(
+            [50.4007, 30.6302],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_1154a50a0ddb4fc29e8006ad63812613 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ec5bf33bb73a43e889b824c9038f54b7 = $(`<div id="html_ec5bf33bb73a43e889b824c9038f54b7" style="width: 100.0%; height: 100.0%;">Литературное кафе «Имбирь» Позняки</div>`)[0];
+                popup_1154a50a0ddb4fc29e8006ad63812613.setContent(html_ec5bf33bb73a43e889b824c9038f54b7);
+            
+
+            marker_ec18c8807def4d6ba7075fe6c49560a6.bindPopup(popup_1154a50a0ddb4fc29e8006ad63812613)
+            ;
+
+            
+        
+    
+        var marker_5b2cf6cad8394edab9b19ef105e7e962 = L.marker(
+            [50.3544, 30.5112],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_2bf8bf5a44654f77ad01d2ae9dc0e03a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_af430a47bf1540daa9e0ed083285e3d1 = $(`<div id="html_af430a47bf1540daa9e0ed083285e3d1" style="width: 100.0%; height: 100.0%;">Музей Пирогово</div>`)[0];
+                popup_2bf8bf5a44654f77ad01d2ae9dc0e03a.setContent(html_af430a47bf1540daa9e0ed083285e3d1);
+            
+
+            marker_5b2cf6cad8394edab9b19ef105e7e962.bindPopup(popup_2bf8bf5a44654f77ad01d2ae9dc0e03a)
+            ;
+
+            
+        
+    
+        var marker_c8158261468647f4b1562c292212cac4 = L.marker(
+            [50.3806, 30.4597],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_1d676addd14341a4995c92ce585a8174 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_20a65b558e0f463890f7424bac5bf295 = $(`<div id="html_20a65b558e0f463890f7424bac5bf295" style="width: 100.0%; height: 100.0%;">Спасо-Преображенский собор</div>`)[0];
+                popup_1d676addd14341a4995c92ce585a8174.setContent(html_20a65b558e0f463890f7424bac5bf295);
+            
+
+            marker_c8158261468647f4b1562c292212cac4.bindPopup(popup_1d676addd14341a4995c92ce585a8174)
+            ;
+
+            
+        
+    
+        var marker_ad45510d585348dbb00523979217cc30 = L.marker(
+            [50.4668, 30.516],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_c2c0a4dc9de24b04a2c864971c0dd840 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_70601b995c3f42afaa96402bd701a5ed = $(`<div id="html_70601b995c3f42afaa96402bd701a5ed" style="width: 100.0%; height: 100.0%;">Чиполлино Пицца</div>`)[0];
+                popup_c2c0a4dc9de24b04a2c864971c0dd840.setContent(html_70601b995c3f42afaa96402bd701a5ed);
+            
+
+            marker_ad45510d585348dbb00523979217cc30.bindPopup(popup_c2c0a4dc9de24b04a2c864971c0dd840)
+            ;
+
+            
+        
+    
+        var marker_be7a46afd7214d1e926bd0e577d6e776 = L.marker(
+            [50.4303, 30.5637],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_ab0cc36d0b4647c5941f6a44088ac18e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_515c8cb1abf046f2831e55253c57b6a5 = $(`<div id="html_515c8cb1abf046f2831e55253c57b6a5" style="width: 100.0%; height: 100.0%;">Певческое поле</div>`)[0];
+                popup_ab0cc36d0b4647c5941f6a44088ac18e.setContent(html_515c8cb1abf046f2831e55253c57b6a5);
+            
+
+            marker_be7a46afd7214d1e926bd0e577d6e776.bindPopup(popup_ab0cc36d0b4647c5941f6a44088ac18e)
+            ;
+
+            
+        
+    
+        var marker_0f36298c9e6e45e8aba22e3744284e97 = L.marker(
+            [50.458999999999996, 30.518],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_d0a595508357480499aaa6260cbfdf4c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8d199886eb3848d0b4564d238e0f08e1 = $(`<div id="html_8d199886eb3848d0b4564d238e0f08e1" style="width: 100.0%; height: 100.0%;">Андреевская церковь</div>`)[0];
+                popup_d0a595508357480499aaa6260cbfdf4c.setContent(html_8d199886eb3848d0b4564d238e0f08e1);
+            
+
+            marker_0f36298c9e6e45e8aba22e3744284e97.bindPopup(popup_d0a595508357480499aaa6260cbfdf4c)
+            ;
+
+            
+        
+    
+        var marker_8149b5cd80284c70b1d64bd0ca211dbc = L.marker(
+            [50.4213, 30.5559],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_4f8c9d12b27647b291727197939413ec = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ea882ef932cc461e9cf161a5d9376e43 = $(`<div id="html_ea882ef932cc461e9cf161a5d9376e43" style="width: 100.0%; height: 100.0%;">Архангело-Михайловский Зверинецкий монастырь</div>`)[0];
+                popup_4f8c9d12b27647b291727197939413ec.setContent(html_ea882ef932cc461e9cf161a5d9376e43);
+            
+
+            marker_8149b5cd80284c70b1d64bd0ca211dbc.bindPopup(popup_4f8c9d12b27647b291727197939413ec)
+            ;
+
+            
+        
+    
+        var marker_3c2065a8eab54b4788196574fb7556c5 = L.marker(
+            [50.4432, 30.5043],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_57bfc2677b8645789af1e6b0ab93de69 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ba5751261d7a4c12bc476b3fdd5df6a4 = $(`<div id="html_ba5751261d7a4c12bc476b3fdd5df6a4" style="width: 100.0%; height: 100.0%;">Ботанический сад имени Фомина</div>`)[0];
+                popup_57bfc2677b8645789af1e6b0ab93de69.setContent(html_ba5751261d7a4c12bc476b3fdd5df6a4);
+            
+
+            marker_3c2065a8eab54b4788196574fb7556c5.bindPopup(popup_57bfc2677b8645789af1e6b0ab93de69)
+            ;
+
+            
+        
+    
+        var marker_ecb4052b2f4b43bbac3cac8351c67f37 = L.marker(
+            [50.4655, 30.5147],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_b58bb0b6e0624bbf834b141b186a254d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b43f09eb541f45ff9ec9ed3429af6cc9 = $(`<div id="html_b43f09eb541f45ff9ec9ed3429af6cc9" style="width: 100.0%; height: 100.0%;">Домик Петра I</div>`)[0];
+                popup_b58bb0b6e0624bbf834b141b186a254d.setContent(html_b43f09eb541f45ff9ec9ed3429af6cc9);
+            
+
+            marker_ecb4052b2f4b43bbac3cac8351c67f37.bindPopup(popup_b58bb0b6e0624bbf834b141b186a254d)
+            ;
+
+            
+        
+    
+        var marker_00dad8f4dc374779b99068a9f4708b63 = L.marker(
+            [50.4467, 30.5233],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_3afce3ff663940bd94eb97e2a6e01a57 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1eb396bacd634d25892f0c30c2bd33a8 = $(`<div id="html_1eb396bacd634d25892f0c30c2bd33a8" style="width: 100.0%; height: 100.0%;">Здоровенькі були</div>`)[0];
+                popup_3afce3ff663940bd94eb97e2a6e01a57.setContent(html_1eb396bacd634d25892f0c30c2bd33a8);
+            
+
+            marker_00dad8f4dc374779b99068a9f4708b63.bindPopup(popup_3afce3ff663940bd94eb97e2a6e01a57)
+            ;
+
+            
+        
+    
+        var marker_56b791936d14464389c9a9aee827a403 = L.marker(
+            [50.461000000000006, 30.5189],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_2dffd805552841e19102ed3bec844e0b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a952c7a92f8747479a9fcb23ababdbc9 = $(`<div id="html_a952c7a92f8747479a9fcb23ababdbc9" style="width: 100.0%; height: 100.0%;">Покровская церковь</div>`)[0];
+                popup_2dffd805552841e19102ed3bec844e0b.setContent(html_a952c7a92f8747479a9fcb23ababdbc9);
+            
+
+            marker_56b791936d14464389c9a9aee827a403.bindPopup(popup_2dffd805552841e19102ed3bec844e0b)
+            ;
+
+            
+        
+    
+        var marker_6692a36aab214b2685e866c9c586ad2f = L.marker(
+            [50.465, 30.5133],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_ee1cd2a085844b05aebedc24ef2963ac = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0a51779c7bfa4e93b6c2fa19faf0745d = $(`<div id="html_0a51779c7bfa4e93b6c2fa19faf0745d" style="width: 100.0%; height: 100.0%;">Церковь Николая Притиска</div>`)[0];
+                popup_ee1cd2a085844b05aebedc24ef2963ac.setContent(html_0a51779c7bfa4e93b6c2fa19faf0745d);
+            
+
+            marker_6692a36aab214b2685e866c9c586ad2f.bindPopup(popup_ee1cd2a085844b05aebedc24ef2963ac)
+            ;
+
+            
+        
+    
+        var marker_dcb24786e79540fdbc51f1eb36da50b6 = L.marker(
+            [50.4599, 30.5162],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_3c2f9577abc24656b4e1765a1af9adf4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2bcecf1a269243a7acfa39ad1cbc00de = $(`<div id="html_2bcecf1a269243a7acfa39ad1cbc00de" style="width: 100.0%; height: 100.0%;">Андреевский спуск</div>`)[0];
+                popup_3c2f9577abc24656b4e1765a1af9adf4.setContent(html_2bcecf1a269243a7acfa39ad1cbc00de);
+            
+
+            marker_dcb24786e79540fdbc51f1eb36da50b6.bindPopup(popup_3c2f9577abc24656b4e1765a1af9adf4)
+            ;
+
+            
+        
+    
+        var marker_936cc94ad81b434abe57b8421443e8d7 = L.marker(
+            [50.4671, 30.4349],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_644a42a99d8c4a8381b35e2d675d1b22 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_267810eb4a4b45cabe740e022aa7fb5b = $(`<div id="html_267810eb4a4b45cabe740e022aa7fb5b" style="width: 100.0%; height: 100.0%;">Киевская детская железная дорога</div>`)[0];
+                popup_644a42a99d8c4a8381b35e2d675d1b22.setContent(html_267810eb4a4b45cabe740e022aa7fb5b);
+            
+
+            marker_936cc94ad81b434abe57b8421443e8d7.bindPopup(popup_644a42a99d8c4a8381b35e2d675d1b22)
+            ;
+
+            
+        
+    
+        var marker_b1c46c1eb2894a199531caad5b906a12 = L.marker(
+            [50.4344, 30.5277],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_23f24869ea4545b08ec7c6df69c99514 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1bd601d8055d4474848257d642fac85c = $(`<div id="html_1bd601d8055d4474848257d642fac85c" style="width: 100.0%; height: 100.0%;">Киевская крепость</div>`)[0];
+                popup_23f24869ea4545b08ec7c6df69c99514.setContent(html_1bd601d8055d4474848257d642fac85c);
+            
+
+            marker_b1c46c1eb2894a199531caad5b906a12.bindPopup(popup_23f24869ea4545b08ec7c6df69c99514)
+            ;
+
+            
+        
+    
+        var marker_d02dd88744c649779b6a435202479bac = L.marker(
+            [50.4564, 30.5122],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_5be246923f9b4dbfbf72f09f58b5d495 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7198b3bbe92448f3bfc99b6290134aee = $(`<div id="html_7198b3bbe92448f3bfc99b6290134aee" style="width: 100.0%; height: 100.0%;">Пейзажная аллея</div>`)[0];
+                popup_5be246923f9b4dbfbf72f09f58b5d495.setContent(html_7198b3bbe92448f3bfc99b6290134aee);
+            
+
+            marker_d02dd88744c649779b6a435202479bac.bindPopup(popup_5be246923f9b4dbfbf72f09f58b5d495)
+            ;
+
+            
+        
+    
+        var marker_0a2650e13e0a468ab033bf08ecac7371 = L.marker(
+            [50.2366, 30.4658],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_8922fc7f42bb42baba115b2cadd31ad0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e1c22303fc7c4fa9a2e58e5d1d9c9ef0 = $(`<div id="html_e1c22303fc7c4fa9a2e58e5d1d9c9ef0" style="width: 100.0%; height: 100.0%;">Горнолыжный комплекс Гвоздов</div>`)[0];
+                popup_8922fc7f42bb42baba115b2cadd31ad0.setContent(html_e1c22303fc7c4fa9a2e58e5d1d9c9ef0);
+            
+
+            marker_0a2650e13e0a468ab033bf08ecac7371.bindPopup(popup_8922fc7f42bb42baba115b2cadd31ad0)
+            ;
+
+            
+        
+    
+        var marker_1d406dc98c2f4ede99d2281b6fa4ce7e = L.marker(
+            [50.4573, 30.523000000000003],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_d5b1ffbb5f884004ad51d0ac2d6020e6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_55135fb30a0245f9ab91b52e03dbad48 = $(`<div id="html_55135fb30a0245f9ab91b52e03dbad48" style="width: 100.0%; height: 100.0%;">Киевский фуникулер</div>`)[0];
+                popup_d5b1ffbb5f884004ad51d0ac2d6020e6.setContent(html_55135fb30a0245f9ab91b52e03dbad48);
+            
+
+            marker_1d406dc98c2f4ede99d2281b6fa4ce7e.bindPopup(popup_d5b1ffbb5f884004ad51d0ac2d6020e6)
+            ;
+
+            
+        
+    
+        var marker_b4d4b3183af8411ead2943d306b50c31 = L.marker(
+            [50.4462, 30.5214],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_cba17d2e8c0f4b90a1ed0c8f531c3010 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1d06b3675a4d4ac1b0ff1fbba50c5d47 = $(`<div id="html_1d06b3675a4d4ac1b0ff1fbba50c5d47" style="width: 100.0%; height: 100.0%;">Улица Крещатик</div>`)[0];
+                popup_cba17d2e8c0f4b90a1ed0c8f531c3010.setContent(html_1d06b3675a4d4ac1b0ff1fbba50c5d47);
+            
+
+            marker_b4d4b3183af8411ead2943d306b50c31.bindPopup(popup_cba17d2e8c0f4b90a1ed0c8f531c3010)
+            ;
+
+            
+        
+    
+        var marker_1443138e3f774b1c8e6ed03dca9a0f75 = L.marker(
+            [50.4675, 30.5232],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_becb401317e04130a91229bf97df766d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8b953c2ab39945c5a877b166a5a7feef = $(`<div id="html_8b953c2ab39945c5a877b166a5a7feef" style="width: 100.0%; height: 100.0%;">Церковь Николая Набережного</div>`)[0];
+                popup_becb401317e04130a91229bf97df766d.setContent(html_8b953c2ab39945c5a877b166a5a7feef);
+            
+
+            marker_1443138e3f774b1c8e6ed03dca9a0f75.bindPopup(popup_becb401317e04130a91229bf97df766d)
+            ;
+
+            
+        
+    
+        var marker_957e9721bdcf467c9a756646694f38ea = L.marker(
+            [50.4274, 30.0916],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_6095702da25d4d6f8e7d97a4ade11809 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e7de95645f2b4ea69c6d3cf9b70c9929 = $(`<div id="html_e7de95645f2b4ea69c6d3cf9b70c9929" style="width: 100.0%; height: 100.0%;">Киностудия Виктория</div>`)[0];
+                popup_6095702da25d4d6f8e7d97a4ade11809.setContent(html_e7de95645f2b4ea69c6d3cf9b70c9929);
+            
+
+            marker_957e9721bdcf467c9a756646694f38ea.bindPopup(popup_6095702da25d4d6f8e7d97a4ade11809)
+            ;
+
+            
+        
+    
+        var marker_0a9a4dbbef694433bfe72ebdbfafb421 = L.marker(
+            [50.4504, 30.5247],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_6a6eb40ccdf64480a55ebc0ddbc318db = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e9e993bb1f4143adbe4530e788ef3ff8 = $(`<div id="html_e9e993bb1f4143adbe4530e788ef3ff8" style="width: 100.0%; height: 100.0%;">Майдан Незалежности</div>`)[0];
+                popup_6a6eb40ccdf64480a55ebc0ddbc318db.setContent(html_e9e993bb1f4143adbe4530e788ef3ff8);
+            
+
+            marker_0a9a4dbbef694433bfe72ebdbfafb421.bindPopup(popup_6a6eb40ccdf64480a55ebc0ddbc318db)
+            ;
+
+            
+        
+    
+        var marker_3537c5a5abfc448997fbb5eb147585b6 = L.marker(
+            [50.4243, 30.4991],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_508dba7885d344e5ac4284438bedc378 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4095bd019b6247538a4bf48ad60731aa = $(`<div id="html_4095bd019b6247538a4bf48ad60731aa" style="width: 100.0%; height: 100.0%;">Протасов Яр</div>`)[0];
+                popup_508dba7885d344e5ac4284438bedc378.setContent(html_4095bd019b6247538a4bf48ad60731aa);
+            
+
+            marker_3537c5a5abfc448997fbb5eb147585b6.bindPopup(popup_508dba7885d344e5ac4284438bedc378)
+            ;
+
+            
+        
+    
+        var marker_74a25124d0cb4dcaaaba4a4c163d3111 = L.marker(
+            [50.4869, 30.5198],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_ae9fbc3325a845f5bc2a32182df06df9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_aa3f6d3443ec4a13ac60135b0d5965bb = $(`<div id="html_aa3f6d3443ec4a13ac60135b0d5965bb" style="width: 100.0%; height: 100.0%;">Star Burger на Московском</div>`)[0];
+                popup_ae9fbc3325a845f5bc2a32182df06df9.setContent(html_aa3f6d3443ec4a13ac60135b0d5965bb);
+            
+
+            marker_74a25124d0cb4dcaaaba4a4c163d3111.bindPopup(popup_ae9fbc3325a845f5bc2a32182df06df9)
+            ;
+
+            
+        
+    
+        var marker_e8709a433c524a7baea9c62d6e4ce2ab = L.marker(
+            [50.428999999999995, 30.5933],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_6f68497c13414e86b304ab42a2dccf5a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_51b3ed4c658a4df1a680da1fa01c553e = $(`<div id="html_51b3ed4c658a4df1a680da1fa01c553e" style="width: 100.0%; height: 100.0%;">Star Burger на Павла Тычины</div>`)[0];
+                popup_6f68497c13414e86b304ab42a2dccf5a.setContent(html_51b3ed4c658a4df1a680da1fa01c553e);
+            
+
+            marker_e8709a433c524a7baea9c62d6e4ce2ab.bindPopup(popup_6f68497c13414e86b304ab42a2dccf5a)
+            ;
+
+            
+        
+    
+        var marker_2501c1f5c2024f63a6d1d044a7dd22c2 = L.marker(
+            [50.5161, 30.4986],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_0c90ac5254674a5b8a566147d6419a86 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0dd250df9d8c42c28ca3c9fd5b8b7ae3 = $(`<div id="html_0dd250df9d8c42c28ca3c9fd5b8b7ae3" style="width: 100.0%; height: 100.0%;">Аквапарк Dream Island</div>`)[0];
+                popup_0c90ac5254674a5b8a566147d6419a86.setContent(html_0dd250df9d8c42c28ca3c9fd5b8b7ae3);
+            
+
+            marker_2501c1f5c2024f63a6d1d044a7dd22c2.bindPopup(popup_0c90ac5254674a5b8a566147d6419a86)
+            ;
+
+            
+        
+    
+        var marker_d364a26bd2fe47b0b382cb2fac69fee4 = L.marker(
+            [50.4533, 30.5247],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_7b760437ccfd4d608248bdd462181039 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_28804d82cdec4541a470e73c0ffefc85 = $(`<div id="html_28804d82cdec4541a470e73c0ffefc85" style="width: 100.0%; height: 100.0%;">Александровский костёл</div>`)[0];
+                popup_7b760437ccfd4d608248bdd462181039.setContent(html_28804d82cdec4541a470e73c0ffefc85);
+            
+
+            marker_d364a26bd2fe47b0b382cb2fac69fee4.bindPopup(popup_7b760437ccfd4d608248bdd462181039)
+            ;
+
+            
+        
+    
+        var marker_8c7df890f73b4e96b323e2a36b548239 = L.marker(
+            [50.4439, 30.5514],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_71aadfc52c60413f8f7519441c806223 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4228233bdaa64a3eb105c5972ac00cf2 = $(`<div id="html_4228233bdaa64a3eb105c5972ac00cf2" style="width: 100.0%; height: 100.0%;">Аскольдова могила и церковь Святого Николая</div>`)[0];
+                popup_71aadfc52c60413f8f7519441c806223.setContent(html_4228233bdaa64a3eb105c5972ac00cf2);
+            
+
+            marker_8c7df890f73b4e96b323e2a36b548239.bindPopup(popup_71aadfc52c60413f8f7519441c806223)
+            ;
+
+            
+        
+    
+        var marker_2dd9cace88a44fb39b309af06579d61c = L.marker(
+            [50.4166, 30.5112],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_e3784dcd6533469ebd246a05c363eb26 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6b17cc30645d41e4a528577e059ef316 = $(`<div id="html_6b17cc30645d41e4a528577e059ef316" style="width: 100.0%; height: 100.0%;">Байково кладбище</div>`)[0];
+                popup_e3784dcd6533469ebd246a05c363eb26.setContent(html_6b17cc30645d41e4a528577e059ef316);
+            
+
+            marker_2dd9cace88a44fb39b309af06579d61c.bindPopup(popup_e3784dcd6533469ebd246a05c363eb26)
+            ;
+
+            
+        
+    
+        var marker_29e2f0646d8c44f08db730382951dc0b = L.marker(
+            [50.4337, 30.5447],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_617d4c3e2d6940bbb00dddeed36ff088 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0f6fd4f8909c4ce1b7a76d12c027dbab = $(`<div id="html_0f6fd4f8909c4ce1b7a76d12c027dbab" style="width: 100.0%; height: 100.0%;">Введенский монастырь</div>`)[0];
+                popup_617d4c3e2d6940bbb00dddeed36ff088.setContent(html_0f6fd4f8909c4ce1b7a76d12c027dbab);
+            
+
+            marker_29e2f0646d8c44f08db730382951dc0b.bindPopup(popup_617d4c3e2d6940bbb00dddeed36ff088)
+            ;
+
+            
+        
+    
+        var marker_c0951df7744d452f90739289971d3725 = L.marker(
+            [50.4167, 30.6716],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_587a51e9e28a4a25a8a7eae2335366a3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_11525cc2e45242b9a64acd32144dc8e5 = $(`<div id="html_11525cc2e45242b9a64acd32144dc8e5" style="width: 100.0%; height: 100.0%;">Верёвочный парк Seiklar</div>`)[0];
+                popup_587a51e9e28a4a25a8a7eae2335366a3.setContent(html_11525cc2e45242b9a64acd32144dc8e5);
+            
+
+            marker_c0951df7744d452f90739289971d3725.bindPopup(popup_587a51e9e28a4a25a8a7eae2335366a3)
+            ;
+
+            
+        
+    
+        var marker_11234a5c67ed485381bbf1919f9a792f = L.marker(
+            [50.4489, 30.5145],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_4369986ccdf24b1d927f4084c3321c09 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_00745172afca45e9ab491d3847ee26fa = $(`<div id="html_00745172afca45e9ab491d3847ee26fa" style="width: 100.0%; height: 100.0%;">Владимирская улица</div>`)[0];
+                popup_4369986ccdf24b1d927f4084c3321c09.setContent(html_00745172afca45e9ab491d3847ee26fa);
+            
+
+            marker_11234a5c67ed485381bbf1919f9a792f.bindPopup(popup_4369986ccdf24b1d927f4084c3321c09)
+            ;
+
+            
+        
+    
+        var marker_9dcd88ae0b794722bb52f2b97e35d632 = L.marker(
+            [50.4618, 30.5103],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_f373574f16134a7f9b45d6cc94ead469 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_878c3a635d044b9397a659fea121a81b = $(`<div id="html_878c3a635d044b9397a659fea121a81b" style="width: 100.0%; height: 100.0%;">Владимирский собор</div>`)[0];
+                popup_f373574f16134a7f9b45d6cc94ead469.setContent(html_878c3a635d044b9397a659fea121a81b);
+            
+
+            marker_9dcd88ae0b794722bb52f2b97e35d632.bindPopup(popup_f373574f16134a7f9b45d6cc94ead469)
+            ;
+
+            
+        
+    
+        var marker_d4c74aa3373f4ee5883a7d266dedd81d = L.marker(
+            [50.4169, 30.5692],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_3c961dca514e4b16b8507d387827f7b2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b6ae9575e97c493db547b7befc557a73 = $(`<div id="html_b6ae9575e97c493db547b7befc557a73" style="width: 100.0%; height: 100.0%;">Выдубицкий монастырь</div>`)[0];
+                popup_3c961dca514e4b16b8507d387827f7b2.setContent(html_b6ae9575e97c493db547b7befc557a73);
+            
+
+            marker_d4c74aa3373f4ee5883a7d266dedd81d.bindPopup(popup_3c961dca514e4b16b8507d387827f7b2)
+            ;
+
+            
+        
+    
+        var marker_583e50e35574466a8999399ed0aae709 = L.marker(
+            [50.4391, 30.5771],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_6ddad4a37be241b09768c066db849e88 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_08a2594a0cb84f649fe7c95e366d3339 = $(`<div id="html_08a2594a0cb84f649fe7c95e366d3339" style="width: 100.0%; height: 100.0%;">Гидропарк</div>`)[0];
+                popup_6ddad4a37be241b09768c066db849e88.setContent(html_08a2594a0cb84f649fe7c95e366d3339);
+            
+
+            marker_583e50e35574466a8999399ed0aae709.bindPopup(popup_6ddad4a37be241b09768c066db849e88)
+            ;
+
+            
+        
+    
+        var marker_c5129841d8af43fc924954bb4fa6f333 = L.marker(
+            [50.3913, 30.5119],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_4cc0bf32b91b4c75928bee7bd85fdf2c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9fd5bc1bb19d4f80a1bea65b38a6a3db = $(`<div id="html_9fd5bc1bb19d4f80a1bea65b38a6a3db" style="width: 100.0%; height: 100.0%;">Голосеевский парк</div>`)[0];
+                popup_4cc0bf32b91b4c75928bee7bd85fdf2c.setContent(html_9fd5bc1bb19d4f80a1bea65b38a6a3db);
+            
+
+            marker_c5129841d8af43fc924954bb4fa6f333.bindPopup(popup_4cc0bf32b91b4c75928bee7bd85fdf2c)
+            ;
+
+            
+        
+    
+        var marker_7d617f1a28d644fc87033bd49715baca = L.marker(
+            [50.4071, 30.4595],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_9009988f2943476ca4183d9d057490db = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9c9856eddc444f5ea839d132c9a3183c = $(`<div id="html_9c9856eddc444f5ea839d132c9a3183c" style="width: 100.0%; height: 100.0%;">Государственный музей авиации</div>`)[0];
+                popup_9009988f2943476ca4183d9d057490db.setContent(html_9c9856eddc444f5ea839d132c9a3183c);
+            
+
+            marker_7d617f1a28d644fc87033bd49715baca.bindPopup(popup_9009988f2943476ca4183d9d057490db)
+            ;
+
+            
+        
+    
+        var marker_bf97c35c52c84cc0a818195b7576cecb = L.marker(
+            [50.4372, 30.5224],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_8a4817247a884466a12ff0df12a1991a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_28ad80e580d0426ab98d8d8cfff07240 = $(`<div id="html_28ad80e580d0426ab98d8d8cfff07240" style="width: 100.0%; height: 100.0%;">Дворец спорта</div>`)[0];
+                popup_8a4817247a884466a12ff0df12a1991a.setContent(html_28ad80e580d0426ab98d8d8cfff07240);
+            
+
+            marker_bf97c35c52c84cc0a818195b7576cecb.bindPopup(popup_8a4817247a884466a12ff0df12a1991a)
+            ;
+
+            
+        
+    
+        var marker_d76003aa1d3c4c69b3cd5e797ba1ec1a = L.marker(
+            [50.4521, 30.5275],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_5507f595b5624e49a8a1660b87ac775a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_eeab09b0cc934234af0d4edea9e014fb = $(`<div id="html_eeab09b0cc934234af0d4edea9e014fb" style="width: 100.0%; height: 100.0%;">Европейская площадь</div>`)[0];
+                popup_5507f595b5624e49a8a1660b87ac775a.setContent(html_eeab09b0cc934234af0d4edea9e014fb);
+            
+
+            marker_d76003aa1d3c4c69b3cd5e797ba1ec1a.bindPopup(popup_5507f595b5624e49a8a1660b87ac775a)
+            ;
+
+            
+        
+    
+        var marker_14a2b49accee4039afd719bd5cb611c0 = L.marker(
+            [50.4406, 30.4894],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_444de472692d458faf1e281f28b7c73e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e1b9756a44d44080a73668b03d3ee152 = $(`<div id="html_e1b9756a44d44080a73668b03d3ee152" style="width: 100.0%; height: 100.0%;">Железнодорожный вокзал Киев-Пассажирский</div>`)[0];
+                popup_444de472692d458faf1e281f28b7c73e.setContent(html_e1b9756a44d44080a73668b03d3ee152);
+            
+
+            marker_14a2b49accee4039afd719bd5cb611c0.bindPopup(popup_444de472692d458faf1e281f28b7c73e)
+            ;
+
+            
+        
+    
+        var marker_5ac490e185c14d76bdec454f19c011b8 = L.marker(
+            [50.4601, 30.5163],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_78c50813649644fbba97f9efc86ebb94 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a9b21ddb3ea44fb7a6bd7cba65149030 = $(`<div id="html_a9b21ddb3ea44fb7a6bd7cba65149030" style="width: 100.0%; height: 100.0%;">Замок Ричарда</div>`)[0];
+                popup_78c50813649644fbba97f9efc86ebb94.setContent(html_a9b21ddb3ea44fb7a6bd7cba65149030);
+            
+
+            marker_5ac490e185c14d76bdec454f19c011b8.bindPopup(popup_78c50813649644fbba97f9efc86ebb94)
+            ;
+
+            
+        
+    
+        var marker_d40c274ee15f4897b0c5483cf89b6c19 = L.marker(
+            [50.4472, 30.5318],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_eb862c1d99614a96b71beea414f2885a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_49f4d850f5ea4c7f965016634a4d67a4 = $(`<div id="html_49f4d850f5ea4c7f965016634a4d67a4" style="width: 100.0%; height: 100.0%;">Здание Национального банка Украины</div>`)[0];
+                popup_eb862c1d99614a96b71beea414f2885a.setContent(html_49f4d850f5ea4c7f965016634a4d67a4);
+            
+
+            marker_d40c274ee15f4897b0c5483cf89b6c19.bindPopup(popup_eb862c1d99614a96b71beea414f2885a)
+            ;
+
+            
+        
+    
+        var marker_138d97a12cb04867b4d50c7bf91e77a4 = L.marker(
+            [50.4373, 30.5157],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_149cb07cef1c42b381be81cfe94b1ada = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0147c5e1b2f640fdab8344f476757ef7 = $(`<div id="html_0147c5e1b2f640fdab8344f476757ef7" style="width: 100.0%; height: 100.0%;">Имбирь Shop</div>`)[0];
+                popup_149cb07cef1c42b381be81cfe94b1ada.setContent(html_0147c5e1b2f640fdab8344f476757ef7);
+            
+
+            marker_138d97a12cb04867b4d50c7bf91e77a4.bindPopup(popup_149cb07cef1c42b381be81cfe94b1ada)
+            ;
+
+            
+        
+    
+        var marker_810b22a06e96426b85cac85069c5dbb8 = L.marker(
+            [50.3483, 30.4868],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_c644f7733bac40b6853c8fc001775709 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_63bbc244db7640c9b7946b54c032209a = $(`<div id="html_63bbc244db7640c9b7946b54c032209a" style="width: 100.0%; height: 100.0%;">Историческая местность Феофания</div>`)[0];
+                popup_c644f7733bac40b6853c8fc001775709.setContent(html_63bbc244db7640c9b7946b54c032209a);
+            
+
+            marker_810b22a06e96426b85cac85069c5dbb8.bindPopup(popup_c644f7733bac40b6853c8fc001775709)
+            ;
+
+            
+        
+    
+        var marker_863b28069bc24a3ead463ec7d7dc8481 = L.marker(
+            [50.4499, 30.511],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_f6de8d7d620046148308f291c98af8ec = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fe2b5b19c45d4898ac200e2a126346b6 = $(`<div id="html_fe2b5b19c45d4898ac200e2a126346b6" style="width: 100.0%; height: 100.0%;">Кенасса</div>`)[0];
+                popup_f6de8d7d620046148308f291c98af8ec.setContent(html_fe2b5b19c45d4898ac200e2a126346b6);
+            
+
+            marker_863b28069bc24a3ead463ec7d7dc8481.bindPopup(popup_f6de8d7d620046148308f291c98af8ec)
+            ;
+
+            
+        
+    
+        var marker_bdfcc61836b94ac995ddca64cd44a63d = L.marker(
+            [50.4347, 30.557],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_d13bfad900434737b81ea5c53f5efc08 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_564dfe9042fa4cfa9d7d927229092bf9 = $(`<div id="html_564dfe9042fa4cfa9d7d927229092bf9" style="width: 100.0%; height: 100.0%;">Киево-Печерская Лавра</div>`)[0];
+                popup_d13bfad900434737b81ea5c53f5efc08.setContent(html_564dfe9042fa4cfa9d7d927229092bf9);
+            
+
+            marker_bdfcc61836b94ac995ddca64cd44a63d.bindPopup(popup_d13bfad900434737b81ea5c53f5efc08)
+            ;
+
+            
+        
+    
+        var marker_2943f96174644fefa4fb15abc53cd5e0 = L.marker(
+            [50.3754, 30.4678],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_8ab59db983aa49e7867540083752fac1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0f9cdd98e48d4df8b84849aeaa4ff498 = $(`<div id="html_0f9cdd98e48d4df8b84849aeaa4ff498" style="width: 100.0%; height: 100.0%;">Киевский дельфинарий Немо</div>`)[0];
+                popup_8ab59db983aa49e7867540083752fac1.setContent(html_0f9cdd98e48d4df8b84849aeaa4ff498);
+            
+
+            marker_2943f96174644fefa4fb15abc53cd5e0.bindPopup(popup_8ab59db983aa49e7867540083752fac1)
+            ;
+
+            
+        
+    
+        var marker_266d60470c9b4ab68ca1e47c4d046a82 = L.marker(
+            [50.4542, 30.4628],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_ccbe864054d44af4bf80a9071d9b2300 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_de666be1f4224d77b1bdf1fab1da2e4d = $(`<div id="html_de666be1f4224d77b1bdf1fab1da2e4d" style="width: 100.0%; height: 100.0%;">Киевский зоопарк</div>`)[0];
+                popup_ccbe864054d44af4bf80a9071d9b2300.setContent(html_de666be1f4224d77b1bdf1fab1da2e4d);
+            
+
+            marker_266d60470c9b4ab68ca1e47c4d046a82.bindPopup(popup_ccbe864054d44af4bf80a9071d9b2300)
+            ;
+
+            
+        
+    
+        var marker_37bff65e9250470ab202863062e9dcc4 = L.marker(
+            [50.4503, 30.4689],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_b85b6cb99c5a4dcd8cd7b52cad920f4d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6393b5563f0b421a8f9480381069adc7 = $(`<div id="html_6393b5563f0b421a8f9480381069adc7" style="width: 100.0%; height: 100.0%;">Киевский Музей восковых фигур</div>`)[0];
+                popup_b85b6cb99c5a4dcd8cd7b52cad920f4d.setContent(html_6393b5563f0b421a8f9480381069adc7);
+            
+
+            marker_37bff65e9250470ab202863062e9dcc4.bindPopup(popup_b85b6cb99c5a4dcd8cd7b52cad920f4d)
+            ;
+
+            
+        
+    
+        var marker_468147f9ffd74dd6aef357b610158976 = L.marker(
+            [50.4315, 30.5169],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_d3ecbab4f6b94a14a8ea48223ded54a8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_01284c1ee1b845b1ab0ae9a00100df32 = $(`<div id="html_01284c1ee1b845b1ab0ae9a00100df32" style="width: 100.0%; height: 100.0%;">Киевский планетарий</div>`)[0];
+                popup_d3ecbab4f6b94a14a8ea48223ded54a8.setContent(html_01284c1ee1b845b1ab0ae9a00100df32);
+            
+
+            marker_468147f9ffd74dd6aef357b610158976.bindPopup(popup_d3ecbab4f6b94a14a8ea48223ded54a8)
+            ;
+
+            
+        
+    
+        var marker_98f996b59bec47018e4f92850c3e1e6e = L.marker(
+            [50.4493, 30.4608],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_aca384ef82d54a09bfa26ad3c39f82e4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_958c1586701f450e8e931af10fc761a8 = $(`<div id="html_958c1586701f450e8e931af10fc761a8" style="width: 100.0%; height: 100.0%;">Киевский политехнический институт</div>`)[0];
+                popup_aca384ef82d54a09bfa26ad3c39f82e4.setContent(html_958c1586701f450e8e931af10fc761a8);
+            
+
+            marker_98f996b59bec47018e4f92850c3e1e6e.bindPopup(popup_aca384ef82d54a09bfa26ad3c39f82e4)
+            ;
+
+            
+        
+    
+        var marker_5d8e9f81f3284a0a8d071ed587858c3f = L.marker(
+            [50.4422, 30.5105],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_1cec17e7ad8e4f2399b8b7551f08294b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8bf407cb3dc34615bee66beeabc1fa72 = $(`<div id="html_8bf407cb3dc34615bee66beeabc1fa72" style="width: 100.0%; height: 100.0%;">Киевский университет</div>`)[0];
+                popup_1cec17e7ad8e4f2399b8b7551f08294b.setContent(html_8bf407cb3dc34615bee66beeabc1fa72);
+            
+
+            marker_5d8e9f81f3284a0a8d071ed587858c3f.bindPopup(popup_1cec17e7ad8e4f2399b8b7551f08294b)
+            ;
+
+            
+        
+    
+        var marker_de6d08d3529140e8b3c521b1ccd9a479 = L.marker(
+            [50.4835, 30.471999999999998],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_1c4f72d5121e481089f13e26ea3305b9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_91849c625ed74fa29c33a3f3d0afcd4a = $(`<div id="html_91849c625ed74fa29c33a3f3d0afcd4a" style="width: 100.0%; height: 100.0%;">Кирилловская церковь</div>`)[0];
+                popup_1c4f72d5121e481089f13e26ea3305b9.setContent(html_91849c625ed74fa29c33a3f3d0afcd4a);
+            
+
+            marker_de6d08d3529140e8b3c521b1ccd9a479.bindPopup(popup_1c4f72d5121e481089f13e26ea3305b9)
+            ;
+
+            
+        
+    
+        var marker_9a6e4f0a62fa44debab8d20cb7d1db34 = L.marker(
+            [50.3129, 30.5187],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_bd14751ad6534c5faa3df56a709e5249 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1771f3dd064a4d6aa6ec5d3bb85695da = $(`<div id="html_1771f3dd064a4d6aa6ec5d3bb85695da" style="width: 100.0%; height: 100.0%;">Конно-спортивный клуб Equides Club</div>`)[0];
+                popup_bd14751ad6534c5faa3df56a709e5249.setContent(html_1771f3dd064a4d6aa6ec5d3bb85695da);
+            
+
+            marker_9a6e4f0a62fa44debab8d20cb7d1db34.bindPopup(popup_bd14751ad6534c5faa3df56a709e5249)
+            ;
+
+            
+        
+    
+        var marker_4250729590cf4e32ace084106f5f4f79 = L.marker(
+            [50.4649, 30.5172],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_fbde2400475f429eb6ef5029762f1885 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ce2337697cd6440088bb89b4e73d0789 = $(`<div id="html_ce2337697cd6440088bb89b4e73d0789" style="width: 100.0%; height: 100.0%;">Контрактовая площадь</div>`)[0];
+                popup_fbde2400475f429eb6ef5029762f1885.setContent(html_ce2337697cd6440088bb89b4e73d0789);
+            
+
+            marker_4250729590cf4e32ace084106f5f4f79.bindPopup(popup_fbde2400475f429eb6ef5029762f1885)
+            ;
+
+            
+        
+    
+        var marker_375fd5b3ec474c2ebb1c4326e268ad8d = L.marker(
+            [50.4338, 30.5128],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_9300f1b3142d4d9eadf6a61382c3d0f5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_951cb7360038444aafe252fc2591f9c7 = $(`<div id="html_951cb7360038444aafe252fc2591f9c7" style="width: 100.0%; height: 100.0%;">Литературное кафе «Имбирь» Олимпийская</div>`)[0];
+                popup_9300f1b3142d4d9eadf6a61382c3d0f5.setContent(html_951cb7360038444aafe252fc2591f9c7);
+            
+
+            marker_375fd5b3ec474c2ebb1c4326e268ad8d.bindPopup(popup_9300f1b3142d4d9eadf6a61382c3d0f5)
+            ;
+
+            
+        
+    
+        var marker_9a7ba530290d4f0499c8b8ec7299a3b7 = L.marker(
+            [50.6239, 30.419],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_3d5b1235891142f9958de7ecbd17d301 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a13ec91c384b44d7b536161c50ce0c45 = $(`<div id="html_a13ec91c384b44d7b536161c50ce0c45" style="width: 100.0%; height: 100.0%;">Лютежский плацдарм</div>`)[0];
+                popup_3d5b1235891142f9958de7ecbd17d301.setContent(html_a13ec91c384b44d7b536161c50ce0c45);
+            
+
+            marker_9a7ba530290d4f0499c8b8ec7299a3b7.bindPopup(popup_3d5b1235891142f9958de7ecbd17d301)
+            ;
+
+            
+        
+    
+        var marker_29aa66651c5c4832bb0310a47c837363 = L.marker(
+            [50.4482, 30.538],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_4195645c7bc0423197e39b4b14805285 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6f03a8da91a64f65b9ef7da3cf1c47d4 = $(`<div id="html_6f03a8da91a64f65b9ef7da3cf1c47d4" style="width: 100.0%; height: 100.0%;">Мариинский дворец</div>`)[0];
+                popup_4195645c7bc0423197e39b4b14805285.setContent(html_6f03a8da91a64f65b9ef7da3cf1c47d4);
+            
+
+            marker_29aa66651c5c4832bb0310a47c837363.bindPopup(popup_4195645c7bc0423197e39b4b14805285)
+            ;
+
+            
+        
+    
+        var marker_3d480b27f872426ab575836d8018d5a4 = L.marker(
+            [50.4382, 30.554000000000002],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_f223f5aebd304eb791fea38f5084c70f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_690105fae693404fa815704e24cf103c = $(`<div id="html_690105fae693404fa815704e24cf103c" style="width: 100.0%; height: 100.0%;">Мемориал памяти жертв Голодомора</div>`)[0];
+                popup_f223f5aebd304eb791fea38f5084c70f.setContent(html_690105fae693404fa815704e24cf103c);
+            
+
+            marker_3d480b27f872426ab575836d8018d5a4.bindPopup(popup_f223f5aebd304eb791fea38f5084c70f)
+            ;
+
+            
+        
+    
+        var marker_2cf3b2884aff4e48abdaded9b418691f = L.marker(
+            [50.4555, 30.5226],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_dbc2308fc17945ba952d4b0740db2266 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c4080790a1ac417c9678a933e8890bd1 = $(`<div id="html_c4080790a1ac417c9678a933e8890bd1" style="width: 100.0%; height: 100.0%;">Михайловский монастырь</div>`)[0];
+                popup_dbc2308fc17945ba952d4b0740db2266.setContent(html_c4080790a1ac417c9678a933e8890bd1);
+            
+
+            marker_2cf3b2884aff4e48abdaded9b418691f.bindPopup(popup_dbc2308fc17945ba952d4b0740db2266)
+            ;
+
+            
+        
+    
+        var marker_a1afa6c7fc0a4824bd5c913aa57015c8 = L.marker(
+            [50.4263, 30.563000000000002],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_1184b3bd9496410284b787d0d8cb84df = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_610eeb28ac9c4689b22fa7b8e0191c92 = $(`<div id="html_610eeb28ac9c4689b22fa7b8e0191c92" style="width: 100.0%; height: 100.0%;">Монумент-скульптура Родина-мать</div>`)[0];
+                popup_1184b3bd9496410284b787d0d8cb84df.setContent(html_610eeb28ac9c4689b22fa7b8e0191c92);
+            
+
+            marker_a1afa6c7fc0a4824bd5c913aa57015c8.bindPopup(popup_1184b3bd9496410284b787d0d8cb84df)
+            ;
+
+            
+        
+    
+        var marker_2c6d725088ae4a75b77409b102db015b = L.marker(
+            [50.4523, 30.5343],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_dde7cb2bf80043568ba704922d2984e2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e14ee5643085427cad5749eadd0687f1 = $(`<div id="html_e14ee5643085427cad5749eadd0687f1" style="width: 100.0%; height: 100.0%;">Мост влюбленных</div>`)[0];
+                popup_dde7cb2bf80043568ba704922d2984e2.setContent(html_e14ee5643085427cad5749eadd0687f1);
+            
+
+            marker_2c6d725088ae4a75b77409b102db015b.bindPopup(popup_dde7cb2bf80043568ba704922d2984e2)
+            ;
+
+            
+        
+    
+        var marker_f47e3c29242541279e6992e064f17a65 = L.marker(
+            [50.4532, 30.5307],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_a28d0e97def94c2da1d7179b1d0727d0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ec0a4738554c4698835ff5ad649b763e = $(`<div id="html_ec0a4738554c4698835ff5ad649b763e" style="width: 100.0%; height: 100.0%;">Музей воды</div>`)[0];
+                popup_a28d0e97def94c2da1d7179b1d0727d0.setContent(html_ec0a4738554c4698835ff5ad649b763e);
+            
+
+            marker_f47e3c29242541279e6992e064f17a65.bindPopup(popup_a28d0e97def94c2da1d7179b1d0727d0)
+            ;
+
+            
+        
+    
+        var marker_daeb684ab61842b48993319455f37b39 = L.marker(
+            [50.4671, 30.5205],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_fb877d215e91435ca45acc24fb9d3370 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8c07dcdd3c7643c99fa432362cc9136b = $(`<div id="html_8c07dcdd3c7643c99fa432362cc9136b" style="width: 100.0%; height: 100.0%;">Музей гетьманства</div>`)[0];
+                popup_fb877d215e91435ca45acc24fb9d3370.setContent(html_8c07dcdd3c7643c99fa432362cc9136b);
+            
+
+            marker_daeb684ab61842b48993319455f37b39.bindPopup(popup_fb877d215e91435ca45acc24fb9d3370)
+            ;
+
+            
+        
+    
+        var marker_09377b2946994e8483689b288d73cd26 = L.marker(
+            [50.4361, 30.5367],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_df8cc6cf94fe4d55b3e7621044442e32 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_45ee13f6c0be482995e65330abdac215 = $(`<div id="html_45ee13f6c0be482995e65330abdac215" style="width: 100.0%; height: 100.0%;">Музей истории туалета</div>`)[0];
+                popup_df8cc6cf94fe4d55b3e7621044442e32.setContent(html_45ee13f6c0be482995e65330abdac215);
+            
+
+            marker_09377b2946994e8483689b288d73cd26.bindPopup(popup_df8cc6cf94fe4d55b3e7621044442e32)
+            ;
+
+            
+        
+    
+        var marker_76f249612a864f2d8df462107f77a5eb = L.marker(
+            [50.4354, 30.4285],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_45009ae0ec15436a8eeb0277c8f855ed = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fa28d0a8cb3043ddb21942e332530738 = $(`<div id="html_fa28d0a8cb3043ddb21942e332530738" style="width: 100.0%; height: 100.0%;">Музей Мамаева Слобода</div>`)[0];
+                popup_45009ae0ec15436a8eeb0277c8f855ed.setContent(html_fa28d0a8cb3043ddb21942e332530738);
+            
+
+            marker_76f249612a864f2d8df462107f77a5eb.bindPopup(popup_45009ae0ec15436a8eeb0277c8f855ed)
+            ;
+
+            
+        
+    
+        var marker_25446ceb537240509da06782336b6475 = L.marker(
+            [50.446999999999996, 30.5056],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_d31762b995d4473bac2c27ac8cc15316 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e8c1db2d908a4bff93b04c0dc483ef2f = $(`<div id="html_e8c1db2d908a4bff93b04c0dc483ef2f" style="width: 100.0%; height: 100.0%;">Музей медицины</div>`)[0];
+                popup_d31762b995d4473bac2c27ac8cc15316.setContent(html_e8c1db2d908a4bff93b04c0dc483ef2f);
+            
+
+            marker_25446ceb537240509da06782336b6475.bindPopup(popup_d31762b995d4473bac2c27ac8cc15316)
+            ;
+
+            
+        
+    
+        var marker_e083d6dfe0db486b9265d27b9dedaef6 = L.marker(
+            [50.4605, 30.5145],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_144ea43996b14ae0a2860c014b4ecb55 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_22ce1783d4c24c0d81d5dca6f5364cbd = $(`<div id="html_22ce1783d4c24c0d81d5dca6f5364cbd" style="width: 100.0%; height: 100.0%;">Музей Михаила Булгакова</div>`)[0];
+                popup_144ea43996b14ae0a2860c014b4ecb55.setContent(html_22ce1783d4c24c0d81d5dca6f5364cbd);
+            
+
+            marker_e083d6dfe0db486b9265d27b9dedaef6.bindPopup(popup_144ea43996b14ae0a2860c014b4ecb55)
+            ;
+
+            
+        
+    
+        var marker_0e047d4809ae4502aa905cc7d5a53aec = L.marker(
+            [50.3939, 30.5049],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_898535ee402843759742f4a5e97f0ce8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9b262817d2ff439e931a1174513cda99 = $(`<div id="html_9b262817d2ff439e931a1174513cda99" style="width: 100.0%; height: 100.0%;">Музей советской оккупации</div>`)[0];
+                popup_898535ee402843759742f4a5e97f0ce8.setContent(html_9b262817d2ff439e931a1174513cda99);
+            
+
+            marker_0e047d4809ae4502aa905cc7d5a53aec.bindPopup(popup_898535ee402843759742f4a5e97f0ce8)
+            ;
+
+            
+        
+    
+        var marker_55928255b7cd4aa982c2d7770020f435 = L.marker(
+            [50.4343, 30.5534],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_48c849cacd4f4875985edf53aff2395c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e021202234a24bca957c0bf1b8eab4d7 = $(`<div id="html_e021202234a24bca957c0bf1b8eab4d7" style="width: 100.0%; height: 100.0%;">Музейный комплекс Мыстецкий арсенал</div>`)[0];
+                popup_48c849cacd4f4875985edf53aff2395c.setContent(html_e021202234a24bca957c0bf1b8eab4d7);
+            
+
+            marker_55928255b7cd4aa982c2d7770020f435.bindPopup(popup_48c849cacd4f4875985edf53aff2395c)
+            ;
+
+            
+        
+    
+        var marker_092ab0b2dacf42c19cd4096cf067b33c = L.marker(
+            [50.4467, 30.5128],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_3d91832077d649d0af92783184a57d87 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ae4794dc83bc48f2b178229c281d4a36 = $(`<div id="html_ae4794dc83bc48f2b178229c281d4a36" style="width: 100.0%; height: 100.0%;">Национальный академический театр оперы и балета Украины имени Тараса Шевченко</div>`)[0];
+                popup_3d91832077d649d0af92783184a57d87.setContent(html_ae4794dc83bc48f2b178229c281d4a36);
+            
+
+            marker_092ab0b2dacf42c19cd4096cf067b33c.bindPopup(popup_3d91832077d649d0af92783184a57d87)
+            ;
+
+            
+        
+    
+        var marker_8a64528df0524cbe90ade1c62c13e533 = L.marker(
+            [50.4665, 30.5175],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_7e39e33f84bf4de384cac17241c73926 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bee83aefe9454c358b411387e93d048b = $(`<div id="html_bee83aefe9454c358b411387e93d048b" style="width: 100.0%; height: 100.0%;">Национальный музей Чернобыль</div>`)[0];
+                popup_7e39e33f84bf4de384cac17241c73926.setContent(html_bee83aefe9454c358b411387e93d048b);
+            
+
+            marker_8a64528df0524cbe90ade1c62c13e533.bindPopup(popup_7e39e33f84bf4de384cac17241c73926)
+            ;
+
+            
+        
+    
+        var marker_d85c37b2bd064a198bf95ab034ade0b4 = L.marker(
+            [50.4493, 30.5309],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_1cc85e537f8441b5b6c746f005fac223 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_077e0e1bb49f4942b8cfda546c4e4bb4 = $(`<div id="html_077e0e1bb49f4942b8cfda546c4e4bb4" style="width: 100.0%; height: 100.0%;">Национальный художественный музей Украины</div>`)[0];
+                popup_1cc85e537f8441b5b6c746f005fac223.setContent(html_077e0e1bb49f4942b8cfda546c4e4bb4);
+            
+
+            marker_d85c37b2bd064a198bf95ab034ade0b4.bindPopup(popup_1cc85e537f8441b5b6c746f005fac223)
+            ;
+
+            
+        
+    
+        var marker_288c5ae8e82344959894a28e01668f8f = L.marker(
+            [50.3784, 30.4786],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_0c1c70dc0ba0449fb232aaa0ba152cb8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_befe31d2c6be431e99dda913d0368cae = $(`<div id="html_befe31d2c6be431e99dda913d0368cae" style="width: 100.0%; height: 100.0%;">Национальный Экспоцентр Украины</div>`)[0];
+                popup_0c1c70dc0ba0449fb232aaa0ba152cb8.setContent(html_befe31d2c6be431e99dda913d0368cae);
+            
+
+            marker_288c5ae8e82344959894a28e01668f8f.bindPopup(popup_0c1c70dc0ba0449fb232aaa0ba152cb8)
+            ;
+
+            
+        
+    
+        var marker_8038213f2c57425aae864a49a439a2fb = L.marker(
+            [50.4269, 30.5178],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_04612a2225bb4a5ca92f7307b56bec5e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0c590fc9005e478b91a23eb7aeea6ad7 = $(`<div id="html_0c590fc9005e478b91a23eb7aeea6ad7" style="width: 100.0%; height: 100.0%;">Николаевский костёл</div>`)[0];
+                popup_04612a2225bb4a5ca92f7307b56bec5e.setContent(html_0c590fc9005e478b91a23eb7aeea6ad7);
+            
+
+            marker_8038213f2c57425aae864a49a439a2fb.bindPopup(popup_04612a2225bb4a5ca92f7307b56bec5e)
+            ;
+
+            
+        
+    
+        var marker_2061f4f850224aaea0d7e9ac2c7a6565 = L.marker(
+            [50.4584, 30.6137],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_8d3e0fd712de4ed1a08fe280e9d35dd9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b70b932c34504358a76e61264063e524 = $(`<div id="html_b70b932c34504358a76e61264063e524" style="width: 100.0%; height: 100.0%;">Океанариум Морская сказка</div>`)[0];
+                popup_8d3e0fd712de4ed1a08fe280e9d35dd9.setContent(html_b70b932c34504358a76e61264063e524);
+            
+
+            marker_2061f4f850224aaea0d7e9ac2c7a6565.bindPopup(popup_8d3e0fd712de4ed1a08fe280e9d35dd9)
+            ;
+
+            
+        
+    
+        var marker_d8ce80e328934abcb33fb5395ec8ddf2 = L.marker(
+            [50.4536, 30.5165],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_7c5aaaf5be7c4bc2922c3576ded3daeb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_50b3a827fbd24a3d95052340e26ac9fe = $(`<div id="html_50b3a827fbd24a3d95052340e26ac9fe" style="width: 100.0%; height: 100.0%;">Памятник Богдану Хмельницкому</div>`)[0];
+                popup_7c5aaaf5be7c4bc2922c3576ded3daeb.setContent(html_50b3a827fbd24a3d95052340e26ac9fe);
+            
+
+            marker_d8ce80e328934abcb33fb5395ec8ddf2.bindPopup(popup_7c5aaaf5be7c4bc2922c3576ded3daeb)
+            ;
+
+            
+        
+    
+        var marker_4adbc30e658744ec807b48168d02a3e6 = L.marker(
+            [50.4561, 30.5271],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_229a54d9abfb41a4b0d51dedd44d6c3b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_890edf38526b4c69b186082a55dd3cc8 = $(`<div id="html_890edf38526b4c69b186082a55dd3cc8" style="width: 100.0%; height: 100.0%;">Памятник князю Владимиру</div>`)[0];
+                popup_229a54d9abfb41a4b0d51dedd44d6c3b.setContent(html_890edf38526b4c69b186082a55dd3cc8);
+            
+
+            marker_4adbc30e658744ec807b48168d02a3e6.bindPopup(popup_229a54d9abfb41a4b0d51dedd44d6c3b)
+            ;
+
+            
+        
+    
+        var marker_df57fe2c56dc45e9a6159a2262e79501 = L.marker(
+            [50.4291, 30.5689],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_0e5baae4ec684a9fba173499d7174d8c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5dbe82c6b3a34edfad8b1219335cc654 = $(`<div id="html_5dbe82c6b3a34edfad8b1219335cc654" style="width: 100.0%; height: 100.0%;">Памятник основателям Киева</div>`)[0];
+                popup_0e5baae4ec684a9fba173499d7174d8c.setContent(html_5dbe82c6b3a34edfad8b1219335cc654);
+            
+
+            marker_df57fe2c56dc45e9a6159a2262e79501.bindPopup(popup_0e5baae4ec684a9fba173499d7174d8c)
+            ;
+
+            
+        
+    
+        var marker_a395afd2bde54658b99cba1c85c0279f = L.marker(
+            [50.4584, 30.4936],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_7f1019357ee04a0babc974932fd7220a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_49df9f40ef85415fbea69355a8430857 = $(`<div id="html_49df9f40ef85415fbea69355a8430857" style="width: 100.0%; height: 100.0%;">Покровский женский монастырь</div>`)[0];
+                popup_7f1019357ee04a0babc974932fd7220a.setContent(html_49df9f40ef85415fbea69355a8430857);
+            
+
+            marker_a395afd2bde54658b99cba1c85c0279f.bindPopup(popup_7f1019357ee04a0babc974932fd7220a)
+            ;
+
+            
+        
+    
+        var marker_9f537f8945ba4768a608ac1651aca095 = L.marker(
+            [50.4455, 30.5143],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_80e5c7c095044c55a6f738f4fd5f0927 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_acd1d9e1bab34319b64e2f0516608a21 = $(`<div id="html_acd1d9e1bab34319b64e2f0516608a21" style="width: 100.0%; height: 100.0%;">Природоведческий музей</div>`)[0];
+                popup_80e5c7c095044c55a6f738f4fd5f0927.setContent(html_acd1d9e1bab34319b64e2f0516608a21);
+            
+
+            marker_9f537f8945ba4768a608ac1651aca095.bindPopup(popup_80e5c7c095044c55a6f738f4fd5f0927)
+            ;
+
+            
+        
+    
+        var marker_37909622526a4b13af24878e0c69cecf = L.marker(
+            [50.3447, 30.4881],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_7e87516ce8c3416b8787b63aa19ccae9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3498485e68e14d589dd62ebcdbe8607e = $(`<div id="html_3498485e68e14d589dd62ebcdbe8607e" style="width: 100.0%; height: 100.0%;">Свято-Пантелеимоновский скит в Феофании</div>`)[0];
+                popup_7e87516ce8c3416b8787b63aa19ccae9.setContent(html_3498485e68e14d589dd62ebcdbe8607e);
+            
+
+            marker_37909622526a4b13af24878e0c69cecf.bindPopup(popup_7e87516ce8c3416b8787b63aa19ccae9)
+            ;
+
+            
+        
+    
+        var marker_6f00e4f1ef3f4b019a79ae7b1b8514e2 = L.marker(
+            [50.4234, 30.4636],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_c5b5bc465b3e4a2eb1220bda2b4d037f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0f3014d37aec4eeebb4fdf1f48113573 = $(`<div id="html_0f3014d37aec4eeebb4fdf1f48113573" style="width: 100.0%; height: 100.0%;">Смотровая площадка ЖК Александровский</div>`)[0];
+                popup_c5b5bc465b3e4a2eb1220bda2b4d037f.setContent(html_0f3014d37aec4eeebb4fdf1f48113573);
+            
+
+            marker_6f00e4f1ef3f4b019a79ae7b1b8514e2.bindPopup(popup_c5b5bc465b3e4a2eb1220bda2b4d037f)
+            ;
+
+            
+        
+    
+        var marker_77bb9ccb499b4262a4dc48eda4300ad3 = L.marker(
+            [50.4529, 30.5149],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_7bda3d73d18542dc81108c85d13fbe43 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cc13e4f6bc3f43438bdc3fe15d9b841f = $(`<div id="html_cc13e4f6bc3f43438bdc3fe15d9b841f" style="width: 100.0%; height: 100.0%;">Софийский собор</div>`)[0];
+                popup_7bda3d73d18542dc81108c85d13fbe43.setContent(html_cc13e4f6bc3f43438bdc3fe15d9b841f);
+            
+
+            marker_77bb9ccb499b4262a4dc48eda4300ad3.bindPopup(popup_7bda3d73d18542dc81108c85d13fbe43)
+            ;
+
+            
+        
+    
+        var marker_105c477b12b7492eb80b693ad3ae12a7 = L.marker(
+            [50.4504, 30.535],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_03df89e29479449895ab7a6886e294f4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8f7705633af3410b9e85f53cc58d34c8 = $(`<div id="html_8f7705633af3410b9e85f53cc58d34c8" style="width: 100.0%; height: 100.0%;">Стадион Динамо</div>`)[0];
+                popup_03df89e29479449895ab7a6886e294f4.setContent(html_8f7705633af3410b9e85f53cc58d34c8);
+            
+
+            marker_105c477b12b7492eb80b693ad3ae12a7.bindPopup(popup_03df89e29479449895ab7a6886e294f4)
+            ;
+
+            
+        
+    
+        var marker_9981b699a4884a1fa95c58049dd3f280 = L.marker(
+            [50.4582, 30.5162],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_2945b334e5954496b11bd7c1076f0abd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_495eba456cfd4215a6ab8b2ced731ac6 = $(`<div id="html_495eba456cfd4215a6ab8b2ced731ac6" style="width: 100.0%; height: 100.0%;">Старокиевская гора</div>`)[0];
+                popup_2945b334e5954496b11bd7c1076f0abd.setContent(html_495eba456cfd4215a6ab8b2ced731ac6);
+            
+
+            marker_9981b699a4884a1fa95c58049dd3f280.bindPopup(popup_2945b334e5954496b11bd7c1076f0abd)
+            ;
+
+            
+        
+    
+        var marker_a3c8229809664932bb873da756c6f5d4 = L.marker(
+            [50.4448, 30.5191],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_64b3d98a93a54cceb4bd35cba3cc6b28 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_77ffd87a8acd4c20a09527d40ea053d7 = $(`<div id="html_77ffd87a8acd4c20a09527d40ea053d7" style="width: 100.0%; height: 100.0%;">Театр русской драмы</div>`)[0];
+                popup_64b3d98a93a54cceb4bd35cba3cc6b28.setContent(html_77ffd87a8acd4c20a09527d40ea053d7);
+            
+
+            marker_a3c8229809664932bb873da756c6f5d4.bindPopup(popup_64b3d98a93a54cceb4bd35cba3cc6b28)
+            ;
+
+            
+        
+    
+        var marker_9332a5d2916948528440354cfa6c6802 = L.marker(
+            [50.4545, 30.5301],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_c8df0ff55fd2403298d5468d3fd5947c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0aeffa4d8f1a4390963eff0ead9425cb = $(`<div id="html_0aeffa4d8f1a4390963eff0ead9425cb" style="width: 100.0%; height: 100.0%;">Троллей Скай Парк</div>`)[0];
+                popup_c8df0ff55fd2403298d5468d3fd5947c.setContent(html_0aeffa4d8f1a4390963eff0ead9425cb);
+            
+
+            marker_9332a5d2916948528440354cfa6c6802.bindPopup(popup_c8df0ff55fd2403298d5468d3fd5947c)
+            ;
+
+            
+        
+    
+        var marker_aebf51a5af834c52a1ae6086dc01fc48 = L.marker(
+            [50.3671, 30.5418],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_0bab679a17714cc587d694c5e057a80e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_253a87a67d8e4041a6d9637f52b739a8 = $(`<div id="html_253a87a67d8e4041a6d9637f52b739a8" style="width: 100.0%; height: 100.0%;">Урочище Китаево</div>`)[0];
+                popup_0bab679a17714cc587d694c5e057a80e.setContent(html_253a87a67d8e4041a6d9637f52b739a8);
+            
+
+            marker_aebf51a5af834c52a1ae6086dc01fc48.bindPopup(popup_0bab679a17714cc587d694c5e057a80e)
+            ;
+
+            
+        
+    
+        var marker_fc75de8386db4d37b2015a6a8d36a004 = L.marker(
+            [50.4633, 30.5166],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_e4b43e8c60e84e0d871c7bc319b428a8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1ebe814d73154c078cd6aafa37b2791e = $(`<div id="html_1ebe814d73154c078cd6aafa37b2791e" style="width: 100.0%; height: 100.0%;">Успенская церковь Богородицы Пирогощей</div>`)[0];
+                popup_e4b43e8c60e84e0d871c7bc319b428a8.setContent(html_1ebe814d73154c078cd6aafa37b2791e);
+            
+
+            marker_fc75de8386db4d37b2015a6a8d36a004.bindPopup(popup_e4b43e8c60e84e0d871c7bc319b428a8)
+            ;
+
+            
+        
+    
+        var marker_b4fd93cc513a4502903066edf50c5888 = L.marker(
+            [50.4634, 30.5133],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_251a293d5e3a42969526bb4df52a0c2c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_321810258a9b485c92cc248776c77c6b = $(`<div id="html_321810258a9b485c92cc248776c77c6b" style="width: 100.0%; height: 100.0%;">Флоровский монастырь</div>`)[0];
+                popup_251a293d5e3a42969526bb4df52a0c2c.setContent(html_321810258a9b485c92cc248776c77c6b);
+            
+
+            marker_b4fd93cc513a4502903066edf50c5888.bindPopup(popup_251a293d5e3a42969526bb4df52a0c2c)
+            ;
+
+            
+        
+    
+        var marker_2aaf6fdd1a4048fd976054549eed0607 = L.marker(
+            [50.4651, 30.5157],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_7a29f51d13c2435c90c63a629c36d650);
+        
+    
+            var popup_3a2c63ad319242a9b67c53cb4f44b5d7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_98799c4ce1d1497093ef68c6c0c420f9 = $(`<div id="html_98799c4ce1d1497093ef68c6c0c420f9" style="width: 100.0%; height: 100.0%;">Фонтан Самсон</div>`)[0];
+                popup_3a2c63ad319242a9b67c53cb4f44b5d7.setContent(html_98799c4ce1d1497093ef68c6c0c420f9);
+            
+
+            marker_2aaf6fdd1a4048fd976054549eed0607.bindPopup(popup_3a2c63ad319242a9b67c53cb4f44b5d7)
+            ;
+
+            
+        
+</script>
